@@ -38,6 +38,6 @@ jobs:
         with:
           app-name: 'Alief'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BC9E38CE6F5044068CDEC2597028A3F7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F842DB5B67E84B4190B16EA115E5D519 }}
           package: '${{ env.PACKAGE_DIRECTORY }}'
           respect-pom-xml: true
